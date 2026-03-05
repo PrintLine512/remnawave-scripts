@@ -2,8 +2,9 @@
 
 
 ```
-curl -fsSL https://raw.githubusercontent.com/Case211/remnanode-install/refs/heads/main/remnanode-install.sh -o remnanode-install.sh
-bash remnanode-install.sh
+curl -fsSL https://raw.githubusercontent.com/Case211/remnanode-install/refs/heads/main/remnanode-install.sh -o /root/remnanode-install.sh
+chmod +x /root/remnanode-install.sh
+/root/remnanode-install.sh
 ```
 
 ```
